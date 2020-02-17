@@ -1,4 +1,12 @@
-module.exports = function countCats(/* matrix */) {
-  throw 'Not implemented';
-  // remove line with error and write your code here
+module.exports = function countCats(matrix) {
+    const concatMatrix = matrix.concat(...matrix);
+    const filterMatrix = concatMatrix.filter(elem => elem === '^^');
+    return filterMatrix.length;
+
 };
+
+// console.log(countCats([
+//     ['##', 'dd', '00'],
+//     ['^^', '..', 'ss'],
+//     ['AA', 'dd', '^^'],
+// ]));
