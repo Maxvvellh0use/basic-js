@@ -21,12 +21,9 @@ const chainMaker = {
     return this;
   },
   finishChain() {
-    let result = '';
-    for (let i = 0; i < this.array.length; i++) {
-      result = result + '( ' + this.array[i] + ' )';
-    }
+    const arr = this.array.map(elem => `( ${elem} )` ).join('');
     this.array = [];
-    return result.split(')(').join(')~~(');
+    return arr.split(')(').join(')~~(');
   }
 };
 
