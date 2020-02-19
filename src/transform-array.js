@@ -11,24 +11,22 @@ module.exports = function transform(arr ) {
             i++;
         }
         else if (arr[i] === '--discard-prev') {
-            resArr.pop();
+                resArr.pop();
         }
         else if (arr[i] === '--double-next') {
-            if (i + 1 < arr.length) {
                 resArr.push(arr[i + 1]);
-            }
+
         }
         else if (arr[i] === '--double-prev') {
-            if (i - 1 > 0) {
                 resArr.push(arr[i - 1]);
-            }
+
         }
         else {
             resArr.push(arr[i]);
         }
     }
 
-    return resArr
+    return resArr.filter(elem => elem !== undefined)
 };
 
 
