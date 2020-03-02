@@ -27,6 +27,4 @@ const chainMaker = {
   }
 };
 
-// console.log(chainMaker.reverseChain().reverseChain().reverseChain().addLink(NaN).reverseChain().addLink(null).addLink(1.233).addLink(true).addLink(false).removeLink(3).addLink(1.233).finishChain());
-
 module.exports = chainMaker;

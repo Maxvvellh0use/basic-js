@@ -28,6 +28,3 @@ module.exports = function transform(arr ) {
 
     return resArr.filter(elem => elem !== undefined)
 };
-
-
-// console.log(transform(  [0,0,'--discard-next', Infinity, 1, Infinity]));

@@ -14,4 +14,4 @@ module.exports = function dateSample(sampleActivity) {
   }
 };
 
-// console.log(dateSample('3'));
+

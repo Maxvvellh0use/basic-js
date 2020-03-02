@@ -5,8 +5,3 @@ module.exports = function countCats(matrix) {
 
 };
 
-// console.log(countCats([
-//     ['##', 'dd', '00'],
-//     ['^^', '..', 'ss'],
-//     ['AA', 'dd', '^^'],
-// ]));

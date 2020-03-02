@@ -30,7 +30,4 @@ module.exports = function repeater(str, options) {
             result = result + options.separator;
     }
     return result;
-}
-
-
-// repeater('STRING', { repeatTimes: 3, separator: '**', addition: 'PLUS', additionRepeatTimes: 3, additionSeparator: '00' });
+};

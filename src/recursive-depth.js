@@ -12,5 +12,3 @@ module.exports = class DepthCalculator {
 };
 
 
-// let depth = new DepthCalculator;
-// console.log(depth.calculateDepth([1, 2, 3, [8, [2]], 4, 5, []]), 3);
