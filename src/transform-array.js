@@ -11,14 +11,14 @@ module.exports = function transform(arr ) {
             i++;
         }
         else if (arr[i] === '--discard-prev') {
-                resArr.pop();
+            resArr.pop();
         }
         else if (arr[i] === '--double-next') {
-                resArr.push(arr[i + 1]);
+            resArr.push(arr[i + 1]);
 
         }
         else if (arr[i] === '--double-prev') {
-                resArr.push(arr[i - 1]);
+            resArr.push(arr[i - 1]);
 
         }
         else {
